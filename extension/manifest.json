@@ -1,0 +1,30 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_title": "Shifted Leak"
+   },
+   "content_scripts": [  {
+      "js": ["js/content.js"],
+    "matches": [ "https://elites.io/*","http://agariohub.net/*","http://agma.io/*","http://agariomachos.com/*","http://galx.io/*","https://wormate.io/*","https://elites.io/*","https://gota.io/web*","http://agar.io/*","http://nbk.io/*","http://agar.red/*","http://www.neyagar.ga/*","http://agar.pro/play/*","http://bomb.agar.bio/*", "http://agariocity.pro/*", "http://zagar.io/*", "http://cellcraft.io/*", "http://blong.io/*", "http://agar.bio/*", "http://dual-agar.me/*", "http://play.agario0.com/*" ],
+      "css": [
+	     "menu.css", "sweetalert.css"
+	   ],
+      "run_at": "document_start"
+	}],
+   "description": "leaked by shifted",
+   "icons": {
+      "128": "icons/icon.png",
+      "16": "icons/icon.png",
+      "48": "icons/icon.png"
+   },
+   "web_accessible_resources": [
+	  "js/shifted.js",
+     "js/sweetalert.js",
+     "sweetalert.css",
+     "icons/logo.png"
+   ],
+   "manifest_version": 2,
+   "name": "Shifted Leak",
+   "permissions": [ "cookies"],
+   "version": "12.0"
+}
